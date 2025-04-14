@@ -14,4 +14,9 @@ public class Rectangle
   public int getWidth() {return width;}
 
   public int getArea() {return length * width;}
+
+  public void printInfo()
+  {
+    System.out.println("Shape: Rectangle\nLength: " + length + "\nWidth: " + width + "\nArea: " + getArea() + "\n");
+  }
 }
