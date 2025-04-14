@@ -17,7 +17,7 @@ public class shapeCollection
 
   public void clearShapes() {shapes.clear();}
 
-  public int getSumOfShapes()
+  public int getSumOfShapeAreas()
   {
     int sum = 0;
     for (Rectangle shape : shapes)
